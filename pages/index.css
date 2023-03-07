@@ -6,3 +6,13 @@
 @import url(../blocks/header/__menu/header__menu.css);
 @import url(../blocks/header/__links/header__links.css);
 @import url(../blocks/header/__link/header__link.css);
+@import url(../blocks/book/book.css);
+@import url(../blocks/book/__image/book__image.css);
+@import url(../blocks/book/__img/book__img.css);
+@import url(../blocks/book/__subtitle/book__subtitle.css);
+@import url(../blocks/book/__title/book__title.css);
+@import url(../blocks/book/__text/book__text.css);
+@import url(../blocks/book/__image/_center/book__image_center.css);
+@import url(../blocks/book/__image/_left/book__image_left.css);
+@import url(../blocks/book/__image/_right/book__image_right.css);
+@import url(../blocks/book/__link/book__link.css);
