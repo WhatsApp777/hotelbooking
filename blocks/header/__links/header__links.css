@@ -4,3 +4,7 @@
     text-decoration-line: none;
     color: #192252;
 }
+.header__links:hover {
+    opacity: 0.8;
+    transition: background-color 2s linear;
+}
