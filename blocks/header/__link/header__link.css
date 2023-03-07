@@ -1,7 +1,6 @@
 .header__link {
     margin: 0;
     padding-top: 32px;
-
 }
 @media (min-width: 768px) {
     .header__link {
@@ -15,10 +14,5 @@
     .header__link {
         padding: 41px 0 32px;
         font-size: 16px;
-    }
-}
-@media (min-width: 1280px) {
-    .header__link {
-        
     }
 }

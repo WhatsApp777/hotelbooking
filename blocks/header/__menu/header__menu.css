@@ -3,21 +3,13 @@
     padding-top: 50px;
     display: flex;
     flex-direction: column;
-    justify-content: center;
     row-gap: 20px;
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 14px;
-    text-decoration: none;
-    color: #192252;
 }
 @media (min-width: 768px) {
     .header__menu {
         padding: 34px 0 22px;
         flex-direction: row;
         justify-content: space-between;
-        font-size: 16px;
-        line-height: 19px;
         max-width: 308px;
         column-gap: 18px;
     }
