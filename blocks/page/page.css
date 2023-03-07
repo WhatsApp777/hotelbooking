@@ -7,3 +7,18 @@
     color: #192252;
     background: #FFFFFF;
 }
+@media (min-width: 768px) {
+    .page {
+        min-width: 768px;
+    }
+}
+@media (min-width: 1024px) {
+    .page {
+        min-width: 1024px;
+    }
+}
+@media (min-width: 1280px) {
+    .page {
+        max-width: 1440px;
+    }
+}

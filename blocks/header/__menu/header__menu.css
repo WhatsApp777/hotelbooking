@@ -1,0 +1,28 @@
+.header__menu {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    color: #192252;
+}
+@media (min-width: 768px) {
+    .header__menu {
+        padding: 29px 0 22px 0;
+        flex-direction: row;
+        justify-content: space-between;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 19px;
+        max-width: 308px;
+        column-gap: 18px;
+    }
+}
+@media (min-width: 1024px) {
+    .header__menu {
+        padding: 57px 0 44px 0;
+        column-gap: 36px;
+    }
+}
