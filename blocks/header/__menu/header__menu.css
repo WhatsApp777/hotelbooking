@@ -1,16 +1,20 @@
 .header__menu {
+    margin: 0;
+    padding-top: 92px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-content: center;
+    row-gap: 20px;
     font-weight: 500;
     font-size: 14px;
     line-height: 16px;
+    text-decoration: none;
     color: #192252;
 }
 @media (min-width: 768px) {
     .header__menu {
-        padding: 29px 0 22px 0;
+        padding: 29px 0 22px;
         flex-direction: row;
         justify-content: space-between;
         font-weight: 500;
@@ -22,7 +26,7 @@
 }
 @media (min-width: 1024px) {
     .header__menu {
-        padding: 57px 0 44px 0;
+        padding: 57px 0 44px;
         column-gap: 36px;
     }
 }
